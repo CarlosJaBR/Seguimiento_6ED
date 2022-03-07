@@ -9,33 +9,33 @@ public class MyConjunto<T> implements Conjunto<T>{
 	}
 	
 	@Override
-	public Conjunto<T> unionConjunto(Conjunto<T> conj) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Conjunto<T> interseccionConjunto(Conjunto<T> conj) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public void agregarElemento(Conjunto<T> conj, T elemt) {
+	public void agregarElemento(T elemt) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public boolean verificarElemento(Conjunto<T> conj, T elemt) {
+	public boolean verificarElemento(T elemt) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
-	public void eliminarElemento(Conjunto<T> conj, T elemt) {
+	public void eliminarElemento(T elemt) {
 		// TODO Auto-generated method stub
 		
+	}
+
+	@Override
+	public Conjunto<T> unionConjunto() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Conjunto<T> interseccionConjunto() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 

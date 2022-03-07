@@ -3,9 +3,9 @@ package model;
 public interface Conjunto<T> {
 	
 	public void crearConjunto(); 
-	public void agregarElemento(Conjunto<T> conj, T elemt); 
-	public boolean verificarElemento(Conjunto<T> conj, T elemt); 
-	public void eliminarElemento(Conjunto<T> conj,T elemt); 
-	public Conjunto<T> unionConjunto(Conjunto<T> conj); 
-	public Conjunto<T> interseccionConjunto(Conjunto<T> conj); 
+	public void agregarElemento(T elemt); 
+	public boolean verificarElemento(T elemt); 
+	public void eliminarElemento(T elemt); 
+	public Conjunto<T> unionConjunto(); 
+	public Conjunto<T> interseccionConjunto(); 
 }
