@@ -37,5 +37,9 @@ public class MyConjunto<T> implements Conjunto<T>{
 		// TODO Auto-generated method stub
 		
 	}
+	
+	public void prueba() {
+		
+	}
 
 }
