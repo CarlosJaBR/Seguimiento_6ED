@@ -38,8 +38,5 @@ public class MyConjunto<T> implements Conjunto<T>{
 		
 	}
 	
-	public void prueba() {
-		
-	}
 
 }
